@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
+
+
+
+
 const Skills = () => {
   return (
     <div className='w-full lg:h-screen p-2'>
@@ -118,6 +122,10 @@ const Skills = () => {
                     <h3>Python</h3>
                 </div>
             </div>
+
+
+
+
 
             </div>
         </div>
