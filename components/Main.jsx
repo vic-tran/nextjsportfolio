@@ -15,7 +15,7 @@ const Main = () => {
                 Let's build
                 </p>
                 <h1 className='py-4 text-gray-700'>
-                Hi, I'm <span className='text-[#5651e5]'>Victor</span>
+                Hi, I'm <span className='text-[#D35D6E]'>Victor</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>
                     A Front End Web Developer
@@ -35,9 +35,9 @@ const Main = () => {
                         <FaGithub/>
                         </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    {/*<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
-                    </div>
+                    </div>*/}
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>

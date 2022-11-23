@@ -8,8 +8,8 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+      <div className='max-w-[1240px] m-auto px-2 pt-24 pb-16 w-full'>
+        <p className='text-xl tracking-widest uppercase text-[#D35D6E]'>
         Contact
         </p>
         <h2 className='py-4'>Get in Touch</h2>
@@ -28,22 +28,24 @@ const Contact = () => {
         </div>
         <div>
         <p className='uppercase pt-8'>Connect With Me</p>
-        <div className='flex items-center justify-between py-4'>
-        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <a href="https://www.linkedin.com/in/victor-tran-24613b110/">
-                        <FaLinkedinIn />
-                        </a>
+          <div className='flex items-center justify-between py-4'>
+            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href="https://www.linkedin.com/in/victor-tran-24613b110/">
+                    <FaLinkedinIn />
+                    </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <a href="https://github.com/vic-tran">
-                        <FaGithub />
-                        </a>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href="https://github.com/vic-tran">
+                    <FaGithub />
+                    </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+              {/*<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href='/#contact'>
+                    <AiOutlineMail />
+                    </a>
+                    </div> */}
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <BsFillPersonLinesFill />
                     </div>
           </div>
         </div>
@@ -56,7 +58,7 @@ const Contact = () => {
 
             <form method="POST" action="https://getform.io/f/18b10e7c-5dc4-4f72-a380-a5ddf28def6c" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-blue-600 text-gray-600'>
+                <p className='text-4xl font-bold inline border-b-4 border-orange-600 text-gray-600'>
                 Contact
                 </p>
                 <p className='text-gray-600 p-4'>// Submit below or email me @ vc.tran998@gmail.com</p>
@@ -74,7 +76,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp className='text-[#5651e5] size={30}' />
+              <HiOutlineChevronDoubleUp className='text-[#D35D6E] size={30}' />
             </div>
           </Link>
         </div>
