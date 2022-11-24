@@ -8,18 +8,16 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm 
-                tracking-widest 
-                text-gray-600'
-                >
-                Let's build
-                </p>
-                <h1 className='py-4 text-gray-700'>
-                Hi, I'm <span className='text-[#D35D6E]'>Victor</span>
-                </h1>
-                <h1 className='py-2 text-gray-700'>
-                    A Front End Web Developer
-                </h1>
+                <div class='line-1 anim-typewriter'>
+                    <h1 className='py-4 text-gray-700'>
+                        Hi, I'm <span className='text-[#D35D6E]'>Victor</span>
+                    </h1>
+                </div>
+                <div class='line-1 anim-typewriter2'>
+                    <h1 className='py-2 text-gray-700'>
+                        A Front End Web Developer.
+                    </h1>
+                </div>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                     I'm a front end web developer with a passion for creating unique and responsive web applications. 
                     As of right now I am focused on learning new technologies while improving upon my existing knowledge. 
