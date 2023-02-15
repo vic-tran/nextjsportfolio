@@ -33,20 +33,22 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/victor-tran-24613b110/">
                     <FaLinkedinIn />
                     </a>
-                    </div>
+              </div>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <a href="https://github.com/vic-tran">
                     <FaGithub />
                     </a>
-                    </div>
+              </div>
               {/*<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <a href='/#contact'>
                     <AiOutlineMail />
                     </a>
                     </div> */}
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href ="https://docs.google.com/document/d/1Q8ZjtOcYVRRy70yHb89y9CV8sBMI-4jri6NSnc9TOwQ/edit">
                     <BsFillPersonLinesFill />
-                    </div>
+                    </a>
+                </div>
           </div>
         </div>
       </div>

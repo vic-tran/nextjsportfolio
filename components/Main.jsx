@@ -37,7 +37,9 @@ const Main = () => {
                         <AiOutlineMail />
                     </div>*/}
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href ="https://docs.google.com/document/d/1Q8ZjtOcYVRRy70yHb89y9CV8sBMI-4jri6NSnc9TOwQ/edit">
                         <BsFillPersonLinesFill />
+                        </a>
                     </div>
                 </div>
             </div>
