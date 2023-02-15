@@ -23,10 +23,10 @@ const todo = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>This application was built using React JS, Firebase and Tailwind CSS. A simple classic todo app with add and delete functionality made possible
-                through Firebase. This project was my first time using Firebase and it was good experience learning how backend technologies connect to the front end. 
+                through Firebase. This project was my first time using Firebase and it was good practice with building a simple application that can store and serve user generated content. 
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href="">
+                    <a href="https://todo-phi-hazel.vercel.app/">
                     Demo
                     </a>
                 </button>
