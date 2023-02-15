@@ -1,8 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
-import spotifyImg from '../public/assets/spotifyproject.png'
-import Link from 'next/link'
-import ProjectItem from './ProjectItem'
+import React from 'react';
+import Image from 'next/image';
+import spotifyImg from '../public/assets/spotifyproject.png';
+import greenTree from '../public/assets/greentree.png';
+import hsc from '../public/assets/hsc.png';
+import todo from '../public/assets/todo.png';
+import Link from 'next/link';
+import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
@@ -20,6 +23,25 @@ const Projects = () => {
                     backgroundImg={spotifyImg} 
                     projectUrl='/spotifyplayer'    
                     />
+                  
+                <ProjectItem 
+                    title='Greentree Homes' 
+                    backgroundImg={greenTree} 
+                    projectUrl='/greentree'    
+                    />
+                
+                <ProjectItem 
+                    title='Hermanos Surf Co.' 
+                    backgroundImg={hsc} 
+                    projectUrl='/hsc'    
+                    />
+                
+                    <ProjectItem 
+                    title='ToDo List' 
+                    backgroundImg={todo} 
+                    projectUrl='/todo'    
+                    />
+                
             
             </div>
         </div>

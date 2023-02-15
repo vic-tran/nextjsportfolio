@@ -8,14 +8,14 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <div class='line-1 anim-typewriter'>
+                <div className='line-1 anim-typewriter'>
                     <h1 className='py-4 text-gray-700'>
                         Hi, I'm <span className='text-[#D35D6E]'>Victor</span>
                     </h1>
                 </div>
-                <div class='line-1 anim-typewriter2'>
+                <div className='line-1 anim-typewriter2'>
                     <h1 className='py-2 text-gray-700'>
-                        A Front End Web Developer.
+                        A Front End Developer.
                     </h1>
                 </div>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
