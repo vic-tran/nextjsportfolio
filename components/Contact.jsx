@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -65,7 +66,7 @@ const Contact = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-orange-600 text-gray-600'>
                 Contact
                 </p>
-                <p className='text-gray-600 p-4'>// Submit below or email me @ vc.tran998@gmail.com</p>
+                <p className='text-gray-600 p-4'>//Submit below or email me @ vc.tran998@gmail.com</p>
             </div>
             <input className='bg-[#ccd6f6] p-2' type='text' placeholder='Name' name='name'></input>
             <input className='my-4 p-2 bg-[#ccd6f6]' type='email' placeholder='Email' name='email'></input>
