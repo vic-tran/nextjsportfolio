@@ -1,6 +1,13 @@
-import Image from 'next/image'
-import React from 'react'
-
+import Image from 'next/image';
+import React from 'react';
+import css from '../public/assets/css.png';
+import github from '../public/assets/github.png';
+import html from '../public/assets/html.png';
+import javascript from '../public/assets/javascript.png';
+import react from '../public/assets/react.png';
+import python from '../public/assets/python.png';
+import tailwind from '../public/assets/tailwind.png';
+import nextjs from '../public/assets/nextjs.png';
 
 
 
@@ -20,7 +27,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/css.png' 
+                    <Image src={css} 
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -35,7 +42,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/html.png' 
+                    <Image src={html} 
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -50,7 +57,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/javascript.png' 
+                    <Image src={javascript}
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -65,7 +72,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/github.png' 
+                    <Image src={github}
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -81,7 +88,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/react.png' 
+                    <Image src={react}
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -96,7 +103,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/tailwind.png' 
+                    <Image src={tailwind}
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -112,7 +119,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/nextjs.png' 
+                    <Image src={nextjs}
                     width='64px' 
                     height='64px'
                     alt='/' 
@@ -127,7 +134,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m=auto'>
-                    <Image src='/../public/assets/python.png' 
+                    <Image src={python}
                     width='64px' 
                     height='64px'
                     alt='/' 
