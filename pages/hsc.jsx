@@ -31,7 +31,7 @@ const hsc = () => {
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/vic-tran/GreenTree">
+                    <a href="https://github.com/vic-tran/HSC">
                     Code
                     </a>
                 </button>
