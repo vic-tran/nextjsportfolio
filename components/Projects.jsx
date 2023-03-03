@@ -3,7 +3,7 @@ import Image from 'next/image';
 import spotifyImg from '../public/assets/spotifyproject.png';
 import greenTree from '../public/assets/greentree.png';
 import hsc from '../public/assets/hsc.png';
-import todo from '../public/assets/todo.png';
+import nba from '../public/assets/nba.png';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -19,6 +19,18 @@ const Projects = () => {
 
 
                 <ProjectItem 
+                    title='NBA Player Stats' 
+                    backgroundImg={nba} 
+                    projectUrl='/nba'    
+                    />
+
+                <ProjectItem 
+                    title='Hermanos Surf Co.' 
+                    backgroundImg={hsc} 
+                    projectUrl='/hsc'    
+                    />
+
+                <ProjectItem 
                     title='Spotify Player' 
                     backgroundImg={spotifyImg} 
                     projectUrl='/spotifyplayer'    
@@ -28,18 +40,6 @@ const Projects = () => {
                     title='Greentree Homes' 
                     backgroundImg={greenTree} 
                     projectUrl='/greentree'    
-                    />
-                
-                <ProjectItem 
-                    title='Hermanos Surf Co.' 
-                    backgroundImg={hsc} 
-                    projectUrl='/hsc'    
-                    />
-                
-                    <ProjectItem 
-                    title='ToDo List' 
-                    backgroundImg={todo} 
-                    projectUrl='/todo'    
                     />
                 
             

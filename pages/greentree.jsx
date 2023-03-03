@@ -56,7 +56,7 @@ const greentree = () => {
             </div>
         </div>
         <Link href='/#projects'>
-            <p className='underline cursor-pointer'>Back</p>
+            <p className='underline cursor-pointer ml-5 mt-10 font-bold'>Back</p>
         </Link>
     </div> 
   )
