@@ -48,7 +48,7 @@ const Contact = () => {
                     </a>
                     </div> */}
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <a href ="https://docs.google.com/document/d/1Q8ZjtOcYVRRy70yHb89y9CV8sBMI-4jri6NSnc9TOwQ/edit" target="_blank" rel="noopener noreferrer">
+                    <a href ="https://drive.google.com/file/d/1RjIDFwqHR66x9kJW2A0zEzkWCWfPj1GU/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                     <BsFillPersonLinesFill />
                     </a>
                 </div>
