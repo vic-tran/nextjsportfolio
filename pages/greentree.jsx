@@ -27,12 +27,12 @@ const greentree = () => {
                     Through this website, community members are able to see events in their area, submit requests for home improvement and contact their HOA board.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href="https://www.greentreeirvinehomes.com/">
+                    <a href="https://www.greentreeirvinehomes.com/" target="_blank" rel="noopener noreferrer">
                     Website
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/vic-tran/GreenTree">
+                    <a href="https://github.com/vic-tran/GreenTree" target="_blank" rel="noopener noreferrer">
                     Code
                     </a>
                 </button>

@@ -75,3 +75,9 @@ html {
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+
+@media (max-width: 767px) {
+  .anim-typewriter, .anim-typewriter2 {
+    font-size: 14px; /* decrease font size further for smaller screens */
+  }
+}

@@ -26,12 +26,12 @@ const nba = () => {
                 to retrieve player images. Tailwind CSS was used to style the application. 
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href="https://nbaplayerstats-nine.vercel.app/">
+                    <a href="https://nbaplayerstats-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
                     Demo
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/vic-tran/nba">
+                    <a href="https://github.com/vic-tran/nba" target="_blank" rel="noopener noreferrer">
                     Code
                     </a>
                 </button>

@@ -28,12 +28,12 @@ const spotifyplayer = () => {
                 information for the current song being played. This is made possible with Spotify API.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href="https://spotify-lac-eight.vercel.app/">
+                    <a href="https://spotify-lac-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
                         Demo
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/vic-tran/musicplayer">
+                    <a href="https://github.com/vic-tran/musicplayer" target="_blank" rel="noopener noreferrer">
                         Code
                     </a>
                 </button>

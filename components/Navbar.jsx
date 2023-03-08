@@ -143,12 +143,12 @@ const Navbar = () => {
                 </p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href="https://www.linkedin.com/in/victor-tran-24613b110/">
+                    <a href="https://www.linkedin.com/in/victor-tran-24613b110/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedinIn/>
                     </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href="https://github.com/vic-tran">
+                    <a href="https://github.com/vic-tran" target="_blank" rel="noopener noreferrer">
                     <FaGithub/>
                     </a>
                 </div>
@@ -156,7 +156,7 @@ const Navbar = () => {
                     <AiOutlineMail/>
                 </div>*/}
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href ="https://docs.google.com/document/d/1Q8ZjtOcYVRRy70yHb89y9CV8sBMI-4jri6NSnc9TOwQ/edit">
+                    <a href ="https://docs.google.com/document/d/1Q8ZjtOcYVRRy70yHb89y9CV8sBMI-4jri6NSnc9TOwQ/edit" target="_blank" rel="noopener noreferrer">
                     <BsFillPersonLinesFill />
                     </a>
                 </div>

@@ -26,12 +26,12 @@ const hsc = () => {
                 Payment implementation is missing from the web application as the company is not yet ready to go live.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href="https://hsc.vercel.app/">
+                    <a href="https://hsc.vercel.app/" target="_blank" rel="noopener noreferrer">
                     Demo
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/vic-tran/HSC">
+                    <a href="https://github.com/vic-tran/HSC" target="_blank" rel="noopener noreferrer">
                     Code
                     </a>
                 </button>
