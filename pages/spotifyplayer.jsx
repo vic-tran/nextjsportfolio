@@ -25,7 +25,7 @@ const spotifyplayer = () => {
                 <p>This app was built using React JS using Spotify's API client. Users are able to log in to their
                 Spotify account through this app and play their own custom playlists through their library. Spotify premium
                 is required for this app. Through the player function you are able to view the playlist tracks along with 
-                information for the current song being played. This is made possible with Spotify API.
+                information for the current song being played. See github readme for development.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
                     <a href="https://spotify-lac-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
